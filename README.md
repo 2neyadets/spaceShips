@@ -9,7 +9,7 @@ yarn
 
 ### install quasar cli
 ```bash
-npm install -g @quasar/cli
+yarn global add @quasar/cli
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
