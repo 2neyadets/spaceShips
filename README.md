@@ -1,26 +1,18 @@
 # Space Ships (ships)
 
-Test task for studwork
+Interface for interacting with the galactic base
 
 ## Install the dependencies
 ```bash
 yarn
 ```
 
+### install quasar cli
+```bash
+npm install -g @quasar/cli
+```
+
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev
 ```
-
-### Lint the files
-```bash
-yarn run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
