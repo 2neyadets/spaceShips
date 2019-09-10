@@ -3,6 +3,11 @@
 
 module.exports = function (ctx) {
   return {
+
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/spaceShips/'
+      : '/',
+
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     boot: [
