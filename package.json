@@ -1,14 +1,18 @@
 {
   "name": "ships",
   "version": "0.0.1",
-  "description": "Test task for studwork",
+  "description": "Test task",
   "productName": "Space Ships",
   "cordovaId": "",
   "author": "Alexander Sintsov <avsintsov91@mail.ru>",
   "private": true,
+  "homepage": "https://2neyadets.github.io/spaceShips",
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
