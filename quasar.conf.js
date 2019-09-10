@@ -68,9 +68,7 @@ module.exports = function (ctx) {
     supportIE: true,
 
     build: {
-      publicPath: process.env.NODE_ENV === 'production'
-        ? '/spaceShips/'
-        : '/',
+      publicPath: '/spaceShips/',
       scopeHoisting: true,
       vueRouterMode: 'history',
       env: {
